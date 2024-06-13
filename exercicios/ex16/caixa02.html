@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grouping tag</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+
+        article {
+            background-color: lightgrey;
+            padding: 5px;
+        }
+
+        section > aside {
+            background-color: aquamarine;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="e">Link</a>
+            <a href="e">Link</a>
+            <a href="e">Link</a>
+            <a href="e">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assunto">
+            <p>Esporte politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>noticias sobre brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius tenetur amet maiores, explicabo molestias incidunt suscipit sapiente minus pariatur neque asperiores et sint magnam dolore. Provident maiores voluptate dolorem id!</p>
+            </article>
+            <aside>
+                <p>Artigo escrito por jose da silva</p>
+            </aside>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>desenvolvido por curso em video</p>
+
+    </footer>
+</body>
+</html>
