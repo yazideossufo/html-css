@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="icor">Cor:</label>
+            <input type="color" name="cor" id="icor">
+        </p>
+
+        <P>
+            <label for="inivel">Nivel de satisfacao:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="1">
+        </P>
+
+        <p>
+            <label for="ifoto">Foto de Perfil: </label>
+            <input type="file" name="foto" id="ifoto">
+        </p>
+        <P>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+        </P>
+    </form>
 </body>
 </html>
