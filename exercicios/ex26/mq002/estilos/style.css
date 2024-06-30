@@ -9,8 +9,9 @@ html, body {
     width: 100vw;
     height: 100vh;
     background-color: rgb(34, 27, 96);
-    background-size: center;
+    background-size: contain;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
